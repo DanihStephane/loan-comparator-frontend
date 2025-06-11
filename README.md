@@ -88,7 +88,7 @@ mtx-frontend/
 - **mtx-network** : Réseau bridge pour communication inter-services
 - Permet la connexion avec le backend MTX si nécessaire
 
-## 📝 Fichier .env sur votre envoronement :
+## 📝 Configuration .env de votre environnement :
 
 Ce sont des exemples
 
