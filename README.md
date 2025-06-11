@@ -88,6 +88,19 @@ mtx-frontend/
 - **mtx-network** : Réseau bridge pour communication inter-services
 - Permet la connexion avec le backend MTX si nécessaire
 
+## 📝 Fichier .env sur votre envoronement :
+
+Ce sont des exemples
+
+```
+NEXT_PUBLIC_API_URL="http://localhost:8080/api/"
+NEXT_PUBLIC_OTP_EXPIRATION_MINUTES=15
+
+NEXT_PUBLIC_APP_API_TOKEN=189d5ece42963889a3fb0148d15d8d3356c4323b68d36517d09d0454eb63657b
+NEXT_PUBLIC_SITE_URL=http://localhost:8081
+NEXT_PUBLIC_ENCRYPTION_KEY=Swu89PiqMUZlKYNmNzpVOW7wnC+sv8iJVUbhBm9KQT4=
+```
+
 ## 📝 Commandes Disponibles
 
 ### Gestion Docker
