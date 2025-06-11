@@ -1,0 +1,207 @@
+{
+  "loan": {
+    "title": "Consumer Credit Comparison",
+    "subtitle": "Compare the best credit rates and find the offer that suits you best",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "table": {
+      "title": "Available Rates",
+      "loading": "Loading rates...",
+      "columns": {
+        "partner": "Partner",
+        "amount": "Amount",
+        "duration": "Duration",
+        "rate": "Rate"
+      },
+      "noData": {
+        "title": "No rates available",
+        "description": "Modify your search criteria or check back later."
+      },
+      "pagination": {
+        "total": "Total: {total} rates",
+        "perPage": "per page",
+        "first": "First",
+        "previous": "Previous",
+        "next": "Next",
+        "last": "Last"
+      }
+    },
+    "filters": {
+      "title": "Filter rates",
+      "amount": "Loan amount",
+      "duration": "Loan duration",
+      "reset": "Reset",
+      "apply": "Apply"
+    },
+    "form": {
+      "title": "Simulate your loan",
+      "amount": "Loan amount",
+      "duration": "Loan duration",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "selectAmount": "Select an amount",
+      "selectDuration": "Select a duration",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "06 12 34 56 78",
+      "compare": "Compare offers",
+      "comparing": "Comparing...",
+      "validation": {
+        "amount": {
+          "required": "Amount is required",
+          "min": "Minimum amount is €50,000"
+        },
+        "duration": {
+          "required": "Duration is required",
+          "min": "Minimum duration is 15 years"
+        },
+        "name": {
+          "required": "Name is required",
+          "minLength": "Name must contain at least 2 characters",
+          "maxLength": "Name cannot exceed 100 characters"
+        },
+        "email": {
+          "required": "Email is required",
+          "invalid": "Invalid email format"
+        },
+        "phone": {
+          "required": "Phone is required",
+          "minLength": "Phone must contain at least 10 characters",
+          "invalid": "Invalid phone format"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Comparison results",
+      "requestSummary": "Amount: {amount} - Duration: {duration} years",
+      "bestOffer": "Best offer:",
+      "success": "Comparison completed successfully",
+      "error": "Error during comparison",
+      "columns": {
+        "partner": "Partner",
+        "rate": "Rate",
+        "monthlyPayment": "Monthly payment",
+        "totalCost": "Total cost"
+      },
+      "noResults": {
+        "title": "No results",
+        "description": "No offers match your current criteria."
+      }
+    },
+    "rates": {
+      "title": "Available Rates"
+    },
+    "validation": {
+      "amount": {
+        "required": "Amount is required",
+        "min": "Minimum amount is €50,000"
+      },
+      "duration": {
+        "required": "Duration is required",
+        "min": "Minimum duration is 15 years"
+      },
+      "name": {
+        "required": "Name is required",
+        "minLength": "Name must contain at least 2 characters",
+        "maxLength": "Name cannot exceed 100 characters"
+      },
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email format"
+      },
+      "phone": {
+        "required": "Phone is required",
+        "minLength": "Phone must contain at least 10 characters",
+        "invalid": "Invalid phone format"
+      }
+    },
+    "errors": {
+      "fetchRates": "Error loading rates",
+      "comparison": "Error comparing offers",
+      "network": "Network connection error",
+      "server": "Server error",
+      "timeout": "Request timeout",
+      "invalidData": "Invalid data",
+      "noPartners": "No partners available",
+      "calculationError": "Calculation error",
+      "default": "An unexpected error occurred"
+    }
+  },
+  "Header": {
+    "title": "Hertz",
+    "navigation": {
+      "home": "Home",
+      "vehicles": "Vehicles",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "auth": {
+      "login": "Login",
+      "register": "Register",
+      "logout": "Logout",
+      "profile": "Profile"
+    },
+    "language": {
+      "switch": "Switch language",
+      "french": "Français",
+      "english": "English"
+    }
+  },
+  "Footer": {
+    "title": "Hertz",
+    "description": "Your trusted partner for vehicle rental",
+    "copyright": "© 2024 Hertz. All rights reserved.",
+    "sections": {
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About",
+          "careers": "Careers",
+          "news": "News",
+          "investors": "Investors"
+        }
+      },
+      "services": {
+        "title": "Services",
+        "links": {
+          "carRental": "Car Rental",
+          "longTerm": "Long Term Rental",
+          "corporate": "Corporate Solutions",
+          "insurance": "Insurance"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "help": "Help",
+          "contact": "Contact",
+          "faq": "FAQ",
+          "feedback": "Feedback"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "terms": "Terms & Conditions",
+          "privacy": "Privacy Policy",
+          "cookies": "Cookie Policy",
+          "legal": "Legal Notice"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "social": {
+      "title": "Follow Us",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  }
+}

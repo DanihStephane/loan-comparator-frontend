@@ -1,0 +1,207 @@
+{
+  "loan": {
+    "title": "Comparateur de Crédits de Consommation",
+    "subtitle": "Comparez les meilleurs taux de crédit et trouvez l'offre qui vous convient le mieux",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée disponible",
+    "table": {
+      "title": "Taux Disponibles",
+      "loading": "Chargement des taux...",
+      "columns": {
+        "partner": "Partenaire",
+        "amount": "Montant",
+        "duration": "Durée",
+        "rate": "Taux"
+      },
+      "noData": {
+        "title": "Aucun taux disponible",
+        "description": "Modifiez vos critères de recherche ou vérifiez ultérieurement."
+      },
+      "pagination": {
+        "total": "Total : {total} taux",
+        "perPage": "par page",
+        "first": "Premier",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "last": "Dernier"
+      }
+    },
+    "filters": {
+      "title": "Filtrer les taux",
+      "amount": "Montant du prêt",
+      "duration": "Durée du prêt",
+      "reset": "Réinitialiser",
+      "apply": "Appliquer"
+    },
+    "form": {
+      "title": "Simuler votre prêt",
+      "amount": "Montant du prêt",
+      "duration": "Durée du prêt",
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "selectAmount": "Sélectionnez un montant",
+      "selectDuration": "Sélectionnez une durée",
+      "namePlaceholder": "Votre nom complet",
+      "emailPlaceholder": "votre@email.com",
+      "phonePlaceholder": "06 12 34 56 78",
+      "compare": "Comparer les offres",
+      "comparing": "Comparaison en cours...",
+      "validation": {
+        "amount": {
+          "required": "Le montant est requis",
+          "min": "Le montant minimum est de 50 000 €"
+        },
+        "duration": {
+          "required": "La durée est requise",
+          "min": "La durée minimum est de 15 ans"
+        },
+        "name": {
+          "required": "Le nom est requis",
+          "minLength": "Le nom doit contenir au moins 2 caractères",
+          "maxLength": "Le nom ne peut pas dépasser 100 caractères"
+        },
+        "email": {
+          "required": "L'email est requis",
+          "invalid": "Format d'email invalide"
+        },
+        "phone": {
+          "required": "Le téléphone est requis",
+          "minLength": "Le téléphone doit contenir au moins 10 caractères",
+          "invalid": "Format de téléphone invalide"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Résultats de la comparaison",
+      "requestSummary": "Montant: {amount} - Durée: {duration} ans",
+      "bestOffer": "Meilleure offre:",
+      "success": "Comparaison effectuée avec succès",
+      "error": "Erreur lors de la comparaison",
+      "columns": {
+        "partner": "Partenaire",
+        "rate": "Taux",
+        "monthlyPayment": "Mensualité",
+        "totalCost": "Coût total"
+      },
+      "noResults": {
+        "title": "Aucun résultat",
+        "description": "Aucune offre ne correspond à vos critères actuels."
+      }
+    },
+    "rates": {
+      "title": "Taux Disponibles"
+    },
+    "validation": {
+      "amount": {
+        "required": "Le montant est requis",
+        "min": "Le montant minimum est de 50 000 €"
+      },
+      "duration": {
+        "required": "La durée est requise",
+        "min": "La durée minimum est de 15 ans"
+      },
+      "name": {
+        "required": "Le nom est requis",
+        "minLength": "Le nom doit contenir au moins 2 caractères",
+        "maxLength": "Le nom ne peut pas dépasser 100 caractères"
+      },
+      "email": {
+        "required": "L'email est requis",
+        "invalid": "Format d'email invalide"
+      },
+      "phone": {
+        "required": "Le téléphone est requis",
+        "minLength": "Le téléphone doit contenir au moins 10 caractères",
+        "invalid": "Format de téléphone invalide"
+      }
+    },
+    "errors": {
+      "fetchRates": "Erreur lors du chargement des taux",
+      "comparison": "Erreur lors de la comparaison des offres",
+      "network": "Erreur de connexion réseau",
+      "server": "Erreur du serveur",
+      "timeout": "Délai d'attente dépassé",
+      "invalidData": "Données invalides",
+      "noPartners": "Aucun partenaire disponible",
+      "calculationError": "Erreur de calcul",
+      "default": "Une erreur inattendue s'est produite"
+    }
+  },
+  "Header": {
+    "title": "Hertz",
+    "navigation": {
+      "home": "Accueil",
+      "vehicles": "Véhicules",
+      "about": "À propos",
+      "contact": "Contact"
+    },
+    "auth": {
+      "login": "Se connecter",
+      "register": "S'inscrire",
+      "logout": "Se déconnecter",
+      "profile": "Profil"
+    },
+    "language": {
+      "switch": "Changer de langue",
+      "french": "Français",
+      "english": "English"
+    }
+  },
+  "Footer": {
+    "title": "Hertz",
+    "description": "Votre partenaire de confiance pour la location de véhicules",
+    "copyright": "© 2024 Hertz. Tous droits réservés.",
+    "sections": {
+      "company": {
+        "title": "Entreprise",
+        "links": {
+          "about": "À propos",
+          "careers": "Carrières",
+          "news": "Actualités",
+          "investors": "Investisseurs"
+        }
+      },
+      "services": {
+        "title": "Services",
+        "links": {
+          "carRental": "Location de voitures",
+          "longTerm": "Location longue durée",
+          "corporate": "Solutions entreprises",
+          "insurance": "Assurances"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "help": "Aide",
+          "contact": "Contact",
+          "faq": "FAQ",
+          "feedback": "Commentaires"
+        }
+      },
+      "legal": {
+        "title": "Légal",
+        "links": {
+          "terms": "Conditions générales",
+          "privacy": "Politique de confidentialité",
+          "cookies": "Politique des cookies",
+          "legal": "Mentions légales"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse"
+    },
+    "social": {
+      "title": "Suivez-nous",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  }
+}
