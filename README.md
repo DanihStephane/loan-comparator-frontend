@@ -1,6 +1,8 @@
 # MTX Frontend
 
-Application frontend développée avec Next.js 14 et conteneurisée avec Docker pour un déploiement et un développement simplifiés. Interface utilisateur moderne du projet MTX.
+Application frontend développée avec Next.js et conteneurisée avec Docker pour un déploiement et un développement simplifiés. Interface utilisateur moderne du projet MTX.
+![FireShot Capture 223 - Leader de la location de voiture pas chère à Madagascar -  localhost](https://github.com/user-attachments/assets/5036ac6e-35cb-4d12-adee-a2972527aac5)
+
 
 ## 🔧 Prérequis
 
@@ -26,8 +28,8 @@ L'utilisation de Docker apporte de nombreux avantages pour le développement fro
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/mtx-frontend.git
-cd mtx-frontend
+git clone [https://github.com/votre-username/mtx-frontend.git](https://github.com/DanihStephane/loan-comparator-frontend.git)
+cd loan-comparator-frontend
 
 # Construire et démarrer l'application
 make build
